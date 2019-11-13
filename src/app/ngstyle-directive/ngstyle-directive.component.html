@@ -1,0 +1,6 @@
+<h2>This is ng style directives</h2>
+
+<p [ngStyle]= "{backgroundColor: getColor()}"
+[ngClass]="{online: serverStatus === 'online'}">
+    {{'server'}} with Id {{serverId}} is {{serverStatus}}
+</p>
